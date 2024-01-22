@@ -1,0 +1,57 @@
+.header {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: max-content max-content auto;
+  padding: 10px 30px;
+  box-sizing: border-box;
+  gap: 2rem;
+  align-items: center;
+  background-color: var(--secondary);
+}
+
+.logo {
+  font: 500;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--dark-tan);
+}
+
+.header-links-ctnr {
+  height: auto;
+  width: auto;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-auth-links-ctnr {
+  height: auto;
+  width: auto;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  justify-self: flex-end;
+}
+
+.header-links-ctnr > div,
+.header-auth-links-ctnr > div {
+  display: flex;
+  height: auto;
+}
+
+.header a {
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--dark-tan);
+  height: 100%;
+  padding: 10px;
+}
+
+.link-auth {
+  background-color: var(--primary);
+  border-radius: 10px;
+}

@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+/* Root Vars */
+:root {
+  /* Colors */
+  --primary: #edede9;
+  --secondary: #d6ccc2;
+
+  --light-tan: #f5ebe0;
+  --tan: #e3d5ca;
+  --tan-pink: #d5bdaf;
+  --dark-tan: #57493a;
+  --dark-tan-1: #6e5c49;
+
+  --error-color: #a52a2a;
+}
+
+/* Core Components */
+html {
+  display: block;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: Inter;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--primary);
+}
+
+code {
+  font-family: Inter;
+}
+
+#root {
+  min-height: 100vh;
+  position: relative;
+  display: grid;
+  grid-template-rows: max-content auto max-content;
+  box-sizing: border-box;
+}
